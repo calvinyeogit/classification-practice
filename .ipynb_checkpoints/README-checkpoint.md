@@ -22,7 +22,7 @@ Since only 1 outcome has to be predicted for each patient, only 1 "label" exists
 1. `"DEATH_EVENT"`: If the patient deceased during the follow-up period (boolean)
 
 My personal best:
-`
+```
               precision    recall  f1-score   support
 
            0       0.87      0.87      0.87        39
@@ -31,4 +31,4 @@ My personal best:
     accuracy                           0.83        60
    macro avg       0.82      0.82      0.82        60
 weighted avg       0.83      0.83      0.83        60
-`
+```
